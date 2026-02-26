@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+#Main {
+    background-color: rgba(0, 128, 0, 0.5);
+    padding: 20px; 
+}
+
+.Header {
+    color: red;
+}
+
+.layout {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+
+    display: flex;
+    gap: 40px; 
+    justify-content: center;
+}
+
+.layout ul {
+    flex: 1;
+}
+
+.list {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: lightcyan;
+    list-style: none;
+}
+
+.item {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding: 10 px;
+}
+
+.item .dropdown {
+    display: none;
+    padding-top: 10px;
+    color: darkblue;
+}
+
+.item.active .dropdown {
+    display: block;
+}
